@@ -1,5 +1,5 @@
 // Imports
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 // Schemas
 const userSchema = new mongoose.Schema({
@@ -10,6 +10,7 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
+    unique: true,
     lowercase: true
   },
   password: {

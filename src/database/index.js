@@ -1,8 +1,8 @@
 // Imports
-const mongoose = require('../database');
+const mongoose = require('mongoose');
 
 // Connection Database
-mongoose.connect('mongodb://localhost', { useMongoClient: true });
+mongoose.connect('mongodb://localhost/dbtest');
 mongoose.Promise = global.Promise;
 
 // Exports
