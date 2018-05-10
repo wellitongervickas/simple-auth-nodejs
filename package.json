@@ -1,0 +1,24 @@
+{
+  "name": "simple-auth-nodejs",
+  "version": "1.0.0",
+  "description": "> Created a simple authetication using nodejs, mongo and express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellitongervickas/simple-auth-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellitongervickas/simple-auth-nodejs/issues"
+  },
+  "homepage": "https://github.com/wellitongervickas/simple-auth-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
